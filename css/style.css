@@ -27,6 +27,7 @@ h1 {
     padding: 20px;
 }
 
+/* common */
 .card {
     width: 180px;
     height: 200px;
@@ -39,24 +40,7 @@ h1 {
     border-radius: 5px;
 }
 
-.card-discover {
-    width: 180px;
-    height: 200px;
-    margin: 5px;
-    display: inline-block;
-    /* background-image: url("../img/pattern.png"); */
-    /* background-size: contain; */
-    position: relative;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
-}
-
-.card-discover img {
-    display: block;
-}
-
-.card-discover .text {
-    display: block;
+.text-color {
     color: indigo;
 }
 
@@ -77,7 +61,9 @@ img {
     background-color: white;
     display: none;
 }
+/* end of common */
 
+/* hover  */
 .card:hover {
     background-image: none;
 }
@@ -89,4 +75,30 @@ img {
 .card:hover .text {
     display: block;
 }
+/* end of hover  */
+
+.card-discover {
+    width: 180px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.card-discover img {
+    display: block;
+}
+
+.card-discover .text {
+    display: block;
+    
+}
 /* end of main */
+
+/* footer  */
+footer {
+    text-align: center;
+}
+/* end of footer  */
